@@ -6,13 +6,44 @@ module.exports = {
     './app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    container: {
+      padding: {
+        DEFAULT: '15px',
+      },
+    },
+    screens: {
+      sm: '640px',
+      md: '768px',
+      lg: '960px',
+      xl: '1200px',
+    },
     extend: {
+      colors: {
+        primary: '#131424',
+        secondary: '#393A47',
+        accent: '#F6931D',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        explosion: 'url("/bg-explosion.png")',
+        circles: 'url("/bg-circles.png")',
+        circleStar: 'url("/circle-star.svg")',
+        site: 'url("/site.svg")',
+        intelligence:'url("/yapay.png")'
+      },
+      animation: {
+        'spin-slow': 'spin 6s linear infinite',
+      },
+      fontFamily: {
+        poppins: [`var(--font-poppins)`, 'sans-serif'],
+        sora: [`var(--font-sora)`, 'sans-serif'],
       },
     },
   },
-  plugins: [],
-}
+  container: {
+    padding: {
+      DEFAULT: '15px',
+    },
+  },
+  plugins: [require('tailwind-scrollbar')],
+};
+
