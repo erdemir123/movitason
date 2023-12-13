@@ -25,7 +25,7 @@ export default function Apps() {
     <div className="flex flex-wrap justify-center items-center gap-6 mt-12 bg-primary/30 py-8 rounded-lg">
       {content.apps.map((item, index) => {
         return (
-          <div className="bg-[rgba(65,47,123,0.15)] w-[400px] h-[400px] py-2 border flex flex-col justify-center items-center gap-4 border-accent rounded-md shadow-lg shadow-[rgba(65,47,123,0.15)]">
+          <div key={index} className="bg-[rgba(65,47,123,0.15)] w-[400px] h-[400px] py-2 border flex flex-col justify-center items-center gap-4 border-accent rounded-md shadow-lg shadow-[rgba(65,47,123,0.15)]">
             <div className="w-[60%] border flex justify-center rounded-[15%] bg-gray-100 p-4 shadow-custom">
               {item.icon}
             </div>

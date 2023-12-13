@@ -18,7 +18,7 @@ export default function Hakkımızda() {
           sektördeki yerini her geçen gün sağlamlaştırmaktadır. Öncelikli olarak
           insan hayatına, ülkesine ve dünyaya katma değerinin yüksek olduğuna
           inandığı Araştırma Geliştirme faaliyetlerini aralıksız devam ettiren
-          Firmamız geleceğin bilgi teknolojilerine yön vermeyi ve Türkiye'ye bu
+          Firmamız geleceğin bilgi teknolojilerine yön vermeyi ve Türkiyeye bu
           alanda saygınlık kazandırmayı hedeflemektedir.
         </p>
       </div>
