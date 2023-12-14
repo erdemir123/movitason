@@ -8,6 +8,7 @@ import Avatar from "./Avatar";
 import MotionBtn from "./MotionBtn";
 
 import CountUp from "react-countup";
+import MotionDiv from './MotionDiv';
 
 
 export default function HomeContainer() {
@@ -16,8 +17,9 @@ export default function HomeContainer() {
     
    <ParticleContainer/>
    <div className="flex flex-col text-center justify-center xl:pt-10 xl:text-left h-full container mx-auto ">
+    <MotionDiv/>
           <MotionP>
-            Movita, mobil araçlar için yerli mühendisler tarafından geliştirilen
+            movita, mobil araçlar için yerli mühendisler tarafından geliştirilen
             araç takip ve uzaktan izlemeli kamera kayıt özelliği bulunan bir
             sistemdir. Yeni nesil takip sistemi olarak bilinen mobil nvr cihazı
             sayesinde okul taşıtlarında koltuk sensörü cihazımız ile entegreli

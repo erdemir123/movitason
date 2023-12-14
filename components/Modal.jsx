@@ -9,8 +9,9 @@ export default function Modal({ item, setOpenModal, openModal }) {
         onClick={() => setOpenModal(false)}
       ></div>
       <div className="fixed w-[55%] h-[70%] top-[50%] left-[50%] z-[8000] text-black -translate-x-1/2 -translate-y-1/2 flex justify-center items-center">
-        {item}
-      </div> 
+        <div>{item}</div>
+        <div>x</div>
+      </div>
     </>
   )
 }

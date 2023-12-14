@@ -11,8 +11,8 @@ const MotionDiv = () => {
     initial="hidden"
     animate="show"
     exit="hidden"
-    > <span>Movita</span>
-      <Typewriter
+    > <span>movita</span>
+      {/* <Typewriter
         options={{
           strings: ["Araç Takip Sistemleri", "Kamera Sistemleri", "Güvenlik Sistemleri"],
           autoStart: true,
@@ -20,7 +20,7 @@ const MotionDiv = () => {
           delay: 100,
           cursor:""
         }}
-      /> 
+      />  */}
     </motion.div>
   );
 };

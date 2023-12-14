@@ -8,7 +8,7 @@ import Typewriter from "typewriter-effect";
 export default function Header() {
   return (
     <div className='absolute z-30 w-full flex items-center px-16  xl:px-0 xl:h-[90px] '>
-      <div className='container mx-auto  flex flex-col items-center justify-center md:flex-row'>
+      <div className='container mx-auto  flex items-center justify-center gap-2'>
         
         <Link href={"/"} className='md:flex items-center text-accent font-bold '>
           <Image src={"/movitaLogo.png"} width={100} height={48} alt='' priority={true} />

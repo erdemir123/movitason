@@ -8,7 +8,7 @@ export default function Nav({ params }) {
   const pathname = usePathname();
   console.log(pathname);
   return (
-    <nav className="flex flex-col items-center xl:justify-center gap-y-4 fixed  h-max  bottom-2 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen border-red-500">
+    <nav className="flex flex-col items-center xl:justify-center gap-y-4 fixed  h-max  bottom-2 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen">
       <div className="flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-2 md:px-40 xl:p-4  bg-red-100/20 rounded-[50px] xl:h-max h-[60px] backdrop-blur-sm text-2xl xl:text-xl xl:rounded-full">
         {navData.map((link, index) => {
           return (
@@ -19,7 +19,7 @@ export default function Nav({ params }) {
               } relative flex items-center group hover:text-accent transition-all duration-300`}
               href={link.path}
             ><div className="absolute pr-14 right-0 hidden xl:group-hover:flex">
-              <div className="bg-white relative flex text-primary items-center p-[6px] rounded-[3px]">
+              <div className="bg-white relative flex text-accent items-center p-[6px] rounded-[3px]">
                   <div className="text-[12px] leading-none font-semibold capitalize">{link.name}</div>
               </div>
               <div className="border-solid border-l-white border-l-8 border-y-transparent border-y-[6px] absolute-right-2"></div>

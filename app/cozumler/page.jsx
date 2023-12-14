@@ -9,6 +9,7 @@ import MotionP from "@/components/MotionP";
 import Image from "next/image";
 import { solutions } from "@/utils/solutions";
 
+
 export default function page() {
   return (
     <PageContainer>
