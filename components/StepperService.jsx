@@ -196,7 +196,7 @@ export default function Stepper({ content }) {
             <Image src={plane} alt="AI Icon" width={320} height={280}  />
             </div>
             <p className="text-center font-bold text-white">
-            Telefonunuzu uçak moduna alıp WiFi'yi açınız.... <br />
+            Telefonunuzu uçak moduna alıp WiFiyi açınız.... <br />
               <span className="text-[12px] text-accent">Eğer Uçak moduna almaz iseniz, cihaz üzerinde sim kartı takılı değilse telefonunuz sizi ağa dahil etmeyecektir.</span>
             </p>
           </div>

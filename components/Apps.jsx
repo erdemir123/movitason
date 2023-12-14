@@ -6,6 +6,7 @@ import movitaqr from "/public/moviqr.svg";
 import Modal from "./Modal";
 import NavTab from "./NavTab";
 import { motion } from "framer-motion";
+import Link from "next/link";
 
 export default function Apps() {
   const [activeId, setActiveId] = useState(1);
@@ -58,7 +59,7 @@ export default function Apps() {
                 {item.description}
               </div>
               <div className="flex justify-center items-center gap-6">
-                <button className="bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold  px-4 rounded inline-flex items-center py-2 hover:text-accent">
+                <Link href={item.href} className="bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold  px-4 rounded inline-flex items-center py-2 hover:text-accent">
                   <svg
                     className="w-4 h-4 mr-2"
                     xmlns="http://www.w3.org/2000/svg"
@@ -68,7 +69,7 @@ export default function Apps() {
                     <path fill-rule="evenodd" d="M13 8V2H7v6H2l8 8 8-8h-5z" />
                   </svg>
                   <span>Download</span>
-                </button>
+                </Link>
                 <button
                   className="bg-gray-100 hover:bg-gray-200 text-gray-800 font-bold py-2 px-4 rounded inline-flex items-center gap-2 hover:text-accent"
                   onClick={() => {
