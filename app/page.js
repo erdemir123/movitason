@@ -2,7 +2,7 @@
 import HomeContainer from '@/components/HomeContainer';
 export default function Home() {
   return (
-    <main className="h-[100vh] w-full relative">
+    <main className="h-[100vh] w-full relative overflow-hidden">
      <HomeContainer/>
    </main>
   )

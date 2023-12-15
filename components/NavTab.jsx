@@ -33,7 +33,7 @@ export default function NavTab({ activeId, changeActiveItem, tabs }) {
         custom={index}
           className={`${
             activeId === tab.id ? "text-accent" : "text-white"
-          } flex justify-center py-1 px-3 text-sm bg-primary/30 rounded-md`}
+          } flex justify-center py-1 px-3 text-sm bg-primary/30 rounded-md cursor-pointer`}
           onClick={() => changeActiveItem(tab.id)}
         >
           <p
