@@ -7,7 +7,7 @@ import movitaServis from "../public/movitaServisApp.webp";
 import movitaAt from "../public/movitaAtApp.webp";
 import movitaAppView from "../public/movitaAppView.jpeg";
 import wifi from "../public/wifi1.jpg";
-import movitaApp2 from "../public/movitaApp2.png";
+import movitaApp2 from "../public/movitaApp2.jpg";
 import plane from "../public/plane.gif";
 import password from "../public/password.gif";
 import download from "../public/download.svg";
@@ -24,7 +24,7 @@ export default function Stepper({ content }) {
     setCurrentStep((prev) => (prev === steps.length ? prev : prev + 1));
   };
 
-  
+
   const handlePrev = () => {
     setCurrentStep((prev) => (prev === 1 ? prev : prev - 1));
   };

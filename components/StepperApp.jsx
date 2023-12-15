@@ -8,7 +8,7 @@ import movitaAt from "../public/movitaAtApp.webp";
 import movitaAppView from "../public/movitaAppView.jpeg";
 import wifi from "../public/wifi1.jpg";
 import user from "../public/kullanıcı.png";
-import movitaApp2 from "../public/movitaApp2.png";
+import movitaApp2 from "../public/movitaApp2.jpg";
 import noPass from "../public/noPassword.png";
 import plane from "../public/plane.gif";
 import password from "../public/password.gif";
