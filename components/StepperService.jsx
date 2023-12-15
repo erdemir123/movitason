@@ -24,6 +24,7 @@ export default function Stepper({ content }) {
     setCurrentStep((prev) => (prev === steps.length ? prev : prev + 1));
   };
 
+  
   const handlePrev = () => {
     setCurrentStep((prev) => (prev === 1 ? prev : prev - 1));
   };
