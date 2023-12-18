@@ -11,7 +11,7 @@ export default function MotionBtn({children}) {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-4"
+            className="max-w-sm xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-4 flex gap-2 text-center"
           >
             {children}
           </motion.div>

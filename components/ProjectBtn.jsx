@@ -1,9 +1,23 @@
+import Link from 'next/link'
 import React from 'react'
-import Link from "next/link"
-import { IoArrowRedoCircleOutline } from "react-icons/io5";
+import { motion } from "framer-motion";
+import { fadeIn } from "@/variants";
 
-export default function ProjectBtn() {
+export default function ProjectBtn({title,handleClick,isOpen}) {
   return (
-    <Link href="/cozumler" className='bg-accent text-center font-extrabold px-8 py-2 rounded-lg flex justify-center relative w-40 group'><span>Çözümler</span><IoArrowRedoCircleOutline className='absolute opacity-0  group-hover:opacity-100 group-hover:translate-x-14 transition-all duration-300'/> </Link>
+    <motion.div
+    variants={fadeIn("up", 0.2)}
+    initial="hidden"
+    animate="show"
+    exit="hidden"
+  >
+    <button
+      type='button'
+      onClick={handleClick}
+      className={`bg-accent text-center font-extrabold px-8 py-2 rounded-lg  w-48 border absolute cursor-pointer`}
+    >
+      {title}
+    </button>
+  </motion.div>
   )
 }

@@ -8,6 +8,7 @@ import { fadeIn } from "@/variants";
 import MotionP from "@/components/MotionP";
 import Image from "next/image";
 import { solutions } from "@/utils/solutions";
+import SwiperPartner from "@/components/SwiperPartner";
 
 
 export default function page() {
@@ -51,6 +52,7 @@ export default function page() {
       <div className="hidden xl:block">
         <Bulb />
       </div>
+      <SwiperPartner/>
     </PageContainer>
   );
 }

@@ -15,14 +15,12 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        
+
           <Header/>
           <Nav/>
           <div className='flex justify-center items-center h-[100%]'> 
-
             {children}
           </div>
-        
       </body>
     </html>
   )

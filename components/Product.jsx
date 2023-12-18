@@ -7,13 +7,7 @@ import Bulb from "./Bulb";
 import { product } from "@/utils/product";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
-import { partner } from "@/utils/partner";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/free-mode";
-import "swiper/css/pagination";
-import { Autoplay, Pagination, Navigation } from "swiper/modules";
-
+import SwiperPartner from "./SwiperPartner";
 export default function Product() {
   return (
     <>
@@ -54,33 +48,7 @@ export default function Product() {
       <div className="hidden xl:block">
         <Bulb />
       </div>
-
-      <div className="absolute bottom-20 xl:bottom-2 left-0 w-full h-24 px-4 ">
-        <div className=" bg-red-100/20  w-full h-full rounded-md flex justify-center items-center  cursor-pointer">
-          <Swiper
-            spaceBetween={30}
-            slidesPerView={4} // Buradaki değeri 2 olarak değiştirin
-          
-            autoplay={{
-              delay: 2500,
-              disableOnInteraction: false,
-            }}
-            pagination={{
-              clickable: true,
-            }}
-            navigation={true}
-            modules={[Autoplay, Pagination, Navigation]}
-          >
-            {partner.map((item, index) => (
-              <SwiperSlide key={index}>
-                <div className=" h-[60px] flex justify-center items-center">
-                  {item.icon}
-                </div>
-              </SwiperSlide>
-            ))}
-          </Swiper>
-        </div>
-      </div>
+      <SwiperPartner color={"#F6931D"} />
     </>
   );
 }
