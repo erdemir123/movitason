@@ -10,11 +10,12 @@ export default function ProjectBtn({title,handleClick,isOpen}) {
     initial="hidden"
     animate="show"
     exit="hidden"
+    
   >
     <button
       type='button'
       onClick={handleClick}
-      className={`bg-accent text-center font-extrabold px-8 py-2 rounded-lg  w-48 border absolute cursor-pointer`}
+      className="bg-accent text-center font-extrabold px-8 py-2 rounded-lg flex justify-center relative w-48 border group cursor-pointer"
     >
       {title}
     </button>

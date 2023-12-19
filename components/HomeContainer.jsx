@@ -15,12 +15,12 @@ import ModalMovita from "./ModalMovita";
 import ProjectBtn from "./ProjectBtn";
 
 export default function HomeContainer() {
-  const [isOpen,setIsOpen]=useState(false)
-  console.log(isOpen)
+  const [isOpen, setIsOpen] = useState(false);
+  console.log(isOpen);
   return (
     <>
       <ParticleContainer />
-      <div className="flex flex-col text-center justify-center xl:pt-10 xl:text-left h-full container mx-auto ">
+      <div className="flex flex-col text-center justify-center xl:pt-10 xl:text-left h-full container mx-auto  ">
         <MotionDiv />
         <MotionP>
           movita, mobil araçlar için yerli mühendisler tarafından geliştirilen
@@ -28,18 +28,21 @@ export default function HomeContainer() {
           sistemdir. Yeni nesil takip sistemi olarak bilinen mobil nvr cihazı
           sayesinde okul taşıtlarında koltuk sensörü cihazımız ile entegreli
           çalışmaktadır. Ayrıca bir çok yeni çözümler sunmaktadır.
-         
         </MotionP>
-        <div className="flex gap-4 justify-start border">
-
-          <LinkBtn title={"Çözümlerimiz"} href="/urunler"/>
-          <ProjectBtn title="Neden movita?" handleClick={()=>setIsOpen(!isOpen)} isOpen={isOpen}/>
+        <div className=" flex justify-center xl:justify-start w-full gap-4">
+         
+            <div className=" flex">
+              <LinkBtn title={"Çözümlerimiz"} href="/urunler" />
+            </div>
+            <div className="">
+              <ProjectBtn
+                title="Neden movita?"
+                handleClick={() => setIsOpen(!isOpen)}
+                isOpen={isOpen}
+              />
+            </div>
+         
         </div>
-
-       
-
-        
-        
 
         <div className="relative after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 mt-4 flex gap-x-14 justify-center xl:justify-start">
           <div className="mb-2">
@@ -71,7 +74,6 @@ export default function HomeContainer() {
             </div>
           </div>
         </div>
-        
       </div>
       {/* <div className="w-[800px] h-full absolute right-0 bottom-0 border">
         <div className="bg-none xl:bg-cover xl:bg-right xl:bg-no-repeat w-full h-full absolute mix-blend-color-dodge translate-z-0"></div>
@@ -79,9 +81,8 @@ export default function HomeContainer() {
           <Avatar />
         </div>
       </div> */}
-      
-      {isOpen && <ModalMovita setIsOpen={setIsOpen} />}
-      
+
+      {isOpen && <ModalMovita setIsOpen={()=>setIsOpen(!isOpen)}  array={preference} />}
     </>
   );
 }
