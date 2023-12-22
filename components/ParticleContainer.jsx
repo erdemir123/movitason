@@ -48,10 +48,10 @@ export default function ParticleContainer() {
         },
         particles: {
           color: {
-            value: "#e68e2e",
+            value: "#F6931D",
           },
           links: {
-            color: "#e68e2e",
+            color: "#F6931D",
             distance: 150,
             enable: true,
             opacity: 0.2,

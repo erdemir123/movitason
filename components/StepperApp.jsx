@@ -220,7 +220,7 @@ export default function Stepper({ content }) {
             <Image src={movitaApp2} alt="AI Icon" width={200} height={50}  />
             </div>
             <p className="text-center font-bold text-white">
-            Daha sonra ilgili menüden istediğiniz işlemi uygulaybilirsiniz.
+            Daha sonra ilgili menüden istediğiniz işlemi uygulayabilirsiniz.
             </p>
           </div>
         )}

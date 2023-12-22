@@ -29,7 +29,7 @@ export default function HomeContainer() {
           sayesinde okul taşıtlarında koltuk sensörü cihazımız ile entegreli
           çalışmaktadır. Ayrıca bir çok yeni çözümler sunmaktadır.
         </MotionP>
-        <div className=" flex justify-center xl:justify-start w-full gap-4">
+        <div className=" flex justify-around xl:justify-start w-full gap-1 xl:gap-4">
          
             <div className=" flex">
               <LinkBtn title={"Çözümlerimiz"} href="/urunler" />

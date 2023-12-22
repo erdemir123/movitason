@@ -39,7 +39,7 @@ export default function Institutional() {
   return (
     <div>
       <NavTab changeActiveItem={changeActiveItem} activeId={activeId} tabs={tabs}/>
-      <div className="border-red-500 ">{content}</div> 
+      <div className="mt-24 lg:mt-12 px-2 bg-primary/50 rounded-lg">{content}</div> 
       
     </div>
   )

@@ -49,7 +49,7 @@ export default function Stepper({ content }) {
       <div className="w-full flex flex-col  lg:flex-row justify-center gap-4 items-center bg-red-100/5 rounded-md">
         {currentStep === 1 && (
           <>
-            <div className="w-[240px] flex flex-wrap justify-center gap-4 py-8">
+            <div className="w-[240px] flex flex-wrap justify-center gap-4 py-8 ">
               <Link
                 href="/"
                 className="rounded-md border p-1 cursor-pointer relative group"
@@ -241,7 +241,7 @@ export default function Stepper({ content }) {
             <Image src={movitaApp2} alt="AI Icon" width={200} height={50}  />
             </div>
             <p className="text-center font-bold text-white">
-            Daha sonra ilgili menüden istediğiniz işlemi uygulaybilirsiniz.
+            Daha sonra ilgili menüden istediğiniz işlemi uygulayarsiniz.
             </p>
           </div>
         )}

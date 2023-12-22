@@ -15,7 +15,7 @@ export default function Nav({ params }) {
             <Link
               key={index}
               className={`${
-                link.path === pathname && "text-accent"
+                link.path === pathname ? "text-[#02AAEB]" : "text-accent"
               } relative flex items-center group hover:text-accent transition-all duration-300 cursor-pointer  justify-center `}
               href={link.path}
             ><div className="absolute pr-14 right-0 hidden xl:group-hover:flex">
