@@ -2,7 +2,7 @@
 "use client"
 import React, { useEffect } from 'react';
 
-const Tavk = () => {
+const TawkToScript = () => {
   useEffect(() => {
     var Tawk_API = Tawk_API || {};
     var Tawk_LoadStart = new Date();
@@ -20,4 +20,4 @@ const Tavk = () => {
   return null; // This component doesn't render anything
 };
 
-export default Tavk;
+export default TawkToScript;

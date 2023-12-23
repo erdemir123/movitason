@@ -2,7 +2,8 @@ import { Inter } from 'next/font/google'
 import './globals.css'
 import Header from '@/components/Header'
 import Nav from '@/components/Nav'
-import Tavk from '@/components/Tavk'
+import TawkToScript from '@/components/TawkToScript'
+import TawkToCustomStyle from '@/components/TawkToCustomStyle'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -20,7 +21,12 @@ export default function RootLayout({ children }) {
           <div className='flex justify-center items-center h-[100%]'> 
             {children}
           </div>
-          <Tavk/>
+          <div className='absolute border border-red-500 bottom-16'>
+          <TawkToScript/>
+          <TawkToCustomStyle />
+          
+          </div>
+          
       </body>
     </html>
   )

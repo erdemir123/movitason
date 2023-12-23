@@ -21,6 +21,26 @@ body {
   color: rgb(var(--foreground-rgb));
   background-image: url("../public/site.svg")
 }
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Scrollbar başlık (kaydırma kolu) */
+::-webkit-scrollbar-thumb {
+  background-color: #dfa341;
+  border-radius: 4px;
+  
+}
+
+/* Scrollbar yuvası (arka plan rengi) */
+::-webkit-scrollbar-track {
+  background-color: #F3F4F6;
+}
+
+/* Opsiyonel: Scrollbar'ın köşe stilini belirlemek için */
+::-webkit-scrollbar-corner {
+  background-color: #F3F4F6;
+}
 
 @layer base {
   .h1 {

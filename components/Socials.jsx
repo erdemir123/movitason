@@ -4,6 +4,7 @@ import Link from "next/link";
 import Image from "next/image";
 import { socialTabs } from "@/utils/socialTabs";
 import { motion } from "framer-motion";
+import TawkToScript from "./TawkToScript";
 
 export default function Socials() {
   const fadeInAnimationVAriants = {
@@ -40,6 +41,7 @@ export default function Socials() {
           >
             {item.icon}
           </Link>
+          <TawkToScript/>
         </motion.div>
         )
       })}
