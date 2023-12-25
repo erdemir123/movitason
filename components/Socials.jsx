@@ -21,7 +21,7 @@ export default function Socials() {
     }),
   };
   return (
-    <div className="flex-1 flex justify-end items-center gap-4 text-2xl">
+    <div className="flex-1 flex justify-center lg:justify-end items-center gap-4 text-2xl">
       {socialTabs.map((item, index) => {
         return (
           <motion.div
