@@ -14,7 +14,7 @@ import Modal from "./Modal";
 import ModalMovita from "./ModalMovita";
 import ProjectBtn from "./ProjectBtn";
 
-export default function HomeContainer() {
+export default function HomeContainer({locale}) {
   const [isOpen, setIsOpen] = useState(false);
   console.log(isOpen);
   return (
@@ -32,7 +32,7 @@ export default function HomeContainer() {
         <div className=" flex justify-around xl:justify-start w-full gap-1 xl:gap-4">
          
             <div className=" flex">
-              <LinkBtn title={"Çözümlerimiz"} href="/urunler" />
+              <LinkBtn title={"Çözümlerimiz"} href={`${locale}/urunler`} />
             </div>
             <div className="">
               <ProjectBtn

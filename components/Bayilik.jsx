@@ -234,9 +234,9 @@ export default function Bayilik() {
             </div>
           </div>
         </div>
-        <div class="flex items-center justify-center ">
+        <div className="flex items-center justify-center ">
           <button
-            class="bg-accent hover:bg-accent/80 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
+            className="bg-accent hover:bg-accent/80 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="submit"
           >
             Mesaj Gönder

@@ -1,4 +1,5 @@
 "use client";
+import {useTranslations} from 'next-intl';
 import { appTabs } from "@/utils/appTabs";
 import Image from "next/image";
 import React, { useState } from "react";
@@ -29,6 +30,7 @@ export default function Apps() {
       },
     }),
   };
+  const t = useTranslations('Index');
   return (
     <>
       <NavTab
@@ -78,7 +80,7 @@ export default function Apps() {
                   }}
                 >
                   <Image src={movitaqr} width={25} height={25} alt="movitaqr" />
-                  <span>Qr Code</span>
+                  <span>{t('title')}</span>
                 </button>
               </div>
             </motion.div>

@@ -19,7 +19,7 @@
 
 body {
   color: rgb(var(--foreground-rgb));
-  background-image: url("../public/site.svg")
+  background-image: url("../../public/site.svg")
 }
 ::-webkit-scrollbar {
   width: 8px;
