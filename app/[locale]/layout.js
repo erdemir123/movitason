@@ -3,7 +3,7 @@ import "./globals.css";
 import Header from "@/components/Header";
 import Nav from "@/components/Nav";
 import TawkToScript from "@/components/TawkToScript";
-import { NextIntlClientProvider } from "next-intl";
+import { unstable_setRequestLocale, NextIntlClientProvider } from "next-intl";
 
 
 const inter = Inter({ subsets: ["latin"] });
@@ -25,6 +25,10 @@ export default async function LocaleLayout({ children, params: { locale } }) {
     messages = (await import(`../../messages/${locale}.json`)).default;
   } catch (error) {
    
+  }
+  if (typeof window === 'undefined') {
+    const { unstable_setRequestLocale } = await import('next-intl/server');
+    unstable_setRequestLocale(locale);
   }
   return (
     <html lang={locale}>
