@@ -1,25 +1,43 @@
-// components/LocaleSwitcher.jsx
-import { useLocale, useTranslations } from 'next-intl';
-import { usePathname, useRouter} from 'next/navigation';
+import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
+import { usePathname, useRouter } from "next/navigation";
+import tr2 from "/public/tr2.png";
+import en2 from "/public/en2.png";
 
 export default function LocaleSwitcher() {
   const locale = useLocale();
-  const router=useRouter()
-  const pathname = usePathname()
-  console.log("s",locale)
+  const router = useRouter();
+  const pathname = usePathname();
+  console.log("s", locale);
 
-
-  function handleLocaleChange(e) {
-    const nextLocale = e.target.value;
-    const newPathname = pathname.replace(/\/(en|tr)(\/.*)?$/, `/${nextLocale}$2`);
+  function handleLocaleChange(lang) {
+    const newPathname = pathname.replace(/\/(en|tr)(\/.*)?$/, `/${lang}$2`);
     console.log(newPathname);
     router.replace(newPathname); // Router'ı kullanarak sayfayı değiştir
   }
 
   return (
-    <select value={locale} onChange={handleLocaleChange}>
-      <option value="en">en</option>
-      <option value="tr">tr</option>
-    </select>
+    <div className="flex justify-center items-center gap-4 mx-4">
+      <div onClick={() => handleLocaleChange("tr")} className="w-8 h-8">
+        <Image
+          src={tr2}
+          width={40}
+          height={40}
+          alt="langTr"
+          className="h-full w-full"
+        />
+      </div>
+      <div onClick={() => handleLocaleChange("en")} className="w-8 h-8">
+        
+        <Image
+          src={en2}
+          width={40}
+          height={40}
+          alt="langEn"
+          className="h-full w-full"
+        />
+      </div>
+      
+    </div>
   );
 }
