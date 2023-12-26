@@ -1,11 +1,14 @@
-import Guide from '@/components/Guide'
+import React from "react";
+
 import PageContainer from '@/components/PageContainer'
-import React from 'react'
+
+import Institutional from "@/components/Institutional";
 
 export default function page() {
+  
   return (
     <PageContainer>
-      <Guide/>
+        <Institutional/>
     </PageContainer>
   )
 }

@@ -15,7 +15,6 @@ export default function Demo() {
   const handleSubmit = (e) => {
     e.preventDefault();
 
-    console.log(dealer);
     setDealer({
       adi: "",
       soyadi: "",

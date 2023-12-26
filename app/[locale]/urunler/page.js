@@ -1,13 +1,13 @@
-
 import PageContainer from "@/components/PageContainer";
 import Product from "@/components/Product";
 import React from "react";
 
 
-export default function page() {
+export default function page({params: { locale }}) {
+  
   return (
     <PageContainer>
-      <Product/>
+      <Product locale={locale}/>
     </PageContainer>
   );
 }

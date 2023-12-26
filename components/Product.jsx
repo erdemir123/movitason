@@ -8,7 +8,8 @@ import { product } from "@/utils/product";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
 import SwiperPartner from "./SwiperPartner";
-export default function Product() {
+export default function Product({locale}) {
+  
   return (
     <>
       <div className="bg-primary/30 xl:py-36 py-4 rounded-md px-4">
@@ -41,7 +42,7 @@ export default function Product() {
             </MotionP>
           </div>
           <div className="w-full xl:max-w-[65%]">
-            <ServiceSlider arrayPage={product} />
+            <ServiceSlider arrayPage={product} locale={locale} />
           </div>
         </div>
       </div>

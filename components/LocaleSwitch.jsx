@@ -8,11 +8,10 @@ export default function LocaleSwitcher() {
   const locale = useLocale();
   const router = useRouter();
   const pathname = usePathname();
-  console.log("s", locale);
+
 
   function handleLocaleChange(lang) {
     const newPathname = pathname.replace(/\/(en|tr)(\/.*)?$/, `/${lang}$2`);
-    console.log(newPathname);
     router.replace(newPathname); // Router'ı kullanarak sayfayı değiştir
   }
 

@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 
 
 export default function NavTab({ activeId, changeActiveItem, tabs }) {
-  console.log(activeId);
+
   const fadeInAnimationVAriants = {
     initial: {
       opacity: 0,

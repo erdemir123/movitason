@@ -6,7 +6,6 @@ export default createMiddleware({
  
   // Used when no locale matches
   defaultLocale: 'tr',
-  basePath:"/tr"
 });
  
 export const config = {

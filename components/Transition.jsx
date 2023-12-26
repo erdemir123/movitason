@@ -6,7 +6,6 @@ import { usePathname } from "next/navigation";
 
 export default function Transition({ children }) {
   const pathname = usePathname();
-  console.log(pathname);
   const transitionVariants = {
     initial: {
       x: "100%",

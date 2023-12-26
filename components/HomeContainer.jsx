@@ -16,7 +16,7 @@ import ProjectBtn from "./ProjectBtn";
 
 export default function HomeContainer({locale}) {
   const [isOpen, setIsOpen] = useState(false);
-  console.log(isOpen);
+
   return (
     <>
       <ParticleContainer />
@@ -32,7 +32,7 @@ export default function HomeContainer({locale}) {
         <div className=" flex justify-around xl:justify-start w-full gap-1 xl:gap-4">
          
             <div className=" flex">
-              <LinkBtn title={"Çözümlerimiz"} href={`${locale}/urunler`} />
+              <LinkBtn title={"Çözümlerimiz"} href={`${locale}/cozumler`} />
             </div>
             <div className="">
               <ProjectBtn

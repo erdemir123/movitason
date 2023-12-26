@@ -11,7 +11,7 @@ import Kvkk from './Kvkk';
 
 export default function Institutional() {
     const [activeId, setActiveId] = useState(1);
-    console.log(activeId)
+ 
     const changeActiveItem = (id) => {
       setActiveId(id);
     };

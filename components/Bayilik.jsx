@@ -18,7 +18,6 @@ export default function Bayilik() {
 
     e.preventDefault()
 
-    console.log(dealer)
     setDealer({
       bayi_adi: "",
       vergi_no: "",

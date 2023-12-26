@@ -5,9 +5,9 @@ import Link from "next/link";
 import React from "react";
 
 export default function Nav({ params,locale }) {
-  console.log(locale)
+  
   const pathname = usePathname();
-  console.log(pathname);
+
   return (
     <nav className="flex flex-col items-center xl:justify-center gap-y-4 fixed  h-max  bottom-2 mt-auto xl:right-[2%] z-50 top-0 w-full xl:w-16 xl:max-w-md xl:h-screen">
       <div className="flex w-full xl:flex-col items-center justify-between xl:justify-center gap-y-10 px-2 md:px-40 xl:p-4  bg-red-100/20 rounded-[50px] xl:h-max h-[60px] backdrop-blur-sm text-2xl xl:text-xl xl:rounded-full">

@@ -1,14 +1,11 @@
-import React from "react";
-
+import Communication from '@/components/Communication'
 import PageContainer from '@/components/PageContainer'
-
-import Institutional from "@/components/Institutional";
+import React from 'react'
 
 export default function page() {
-  
   return (
     <PageContainer>
-        <Institutional/>
+      <Communication/>
     </PageContainer>
   )
 }

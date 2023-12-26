@@ -22,34 +22,34 @@ const Map = () => {
 
     const GetMyLocation = () => {
       const getMyLocation = () => {
-        console.log("burası çalıştı");
+        
         if (navigator.permissions) {
           navigator.permissions.query({ name: 'geolocation' }).then((result) => {
-            console.log("granted");
+            
             if (result.state === 'granted') {
               navigator.geolocation.getCurrentPosition((position) => {
                 setCoord([position.coords.latitude, position.coords.longitude]);
-                console.log("New Coordinates:", [position.coords.latitude, position.coords.longitude]);
+                
               });
             } else if (result.state === 'prompt') {
               // Kullanıcıya izin sor
               navigator.geolocation.getCurrentPosition((position) => {
                 setCoord([position.coords.latitude, position.coords.longitude]);
-                console.log("New Coordinates:", [position.coords.latitude, position.coords.longitude]);
+                
               }, (error) => {
-                console.error(error);
+                
               });
             } else if (result.state === 'denied') {
-              console.error('Geolocation permission denied.');
+              
             }
           });
         } else if (navigator.geolocation) {
           navigator.geolocation.getCurrentPosition((position) => {
             setCoord([position.coords.latitude, position.coords.longitude]);
-            console.log("New Coordinates:", [position.coords.latitude, position.coords.longitude]);
+            
           });
         } else {
-          console.log("Geolocation is not supported by this browser.");
+          
         }
       }
     

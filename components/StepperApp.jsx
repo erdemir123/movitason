@@ -22,7 +22,7 @@ export default function Stepper({ content }) {
   const [complete, setComplete] = useState(false);
 
   const handleNext = () => {
-    console.log(currentStep);
+   
     setCurrentStep((prev) => (prev === steps.length ? prev : prev + 1));
   };
 
