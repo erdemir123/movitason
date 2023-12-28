@@ -4,7 +4,7 @@ export  const tabs = [
         id: 1,
         name: "Hakkımızda",
         poKey: "about",
-        url: ""
+        url: "" 
     },
     {
         id: 2,
