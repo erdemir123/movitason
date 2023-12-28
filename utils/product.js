@@ -28,12 +28,12 @@ export const product = [
       icon: <Image src={carFollow} alt="AI Icon" width={45} height={45}/>,
       title: 'ARAÇ TAKİP CİHAZI',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      href:"Arac_Takip_Cihazı"
+      href:"Arac_Takip_Cihazi"
     },
     {
       icon:<Image src={pole} alt="AI Icon" width={45} height={45}/>,
       title: 'AKILLI DİREK',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
-      href:"Akıllı_Direk"
+      href:"Akilli_Direk"
     },
   ];

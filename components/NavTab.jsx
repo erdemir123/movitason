@@ -21,7 +21,7 @@ export default function NavTab({ activeId, changeActiveItem, tabs }) {
   };
   const t = useTranslations('nav');
   return (
-    <div className="w-[80%] flex  flex-wrap rounded-4 absolute top-28 bg-red-100/20 gap-2 justify-center py-3 rounded-lg shadow-md px-2">
+    <div className="w-[80%] flex  flex-wrap rounded-4 absolute top-28 bg-red-100/20 gap-2 justify-center py-3 rounded-lg shadow-md px-2 ">
       {tabs.map((tab, index) => (
         <motion.div
         key={index}
@@ -35,7 +35,7 @@ export default function NavTab({ activeId, changeActiveItem, tabs }) {
         custom={index}
           className={`${
             activeId === tab.id ? "text-accent" : "text-white"
-          } flex justify-center py-1 px-3 text-sm bg-primary/30 rounded-md cursor-pointer`}
+          } flex justify-center py-1 px-3 text-sm bg-primary/30 rounded-md cursor-pointer `}
           onClick={() => changeActiveItem(tab.id)}
         >
           <p

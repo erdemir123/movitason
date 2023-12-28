@@ -42,7 +42,7 @@ export default function Product({locale}) {
             </MotionP>
           </div>
           <div className="w-full xl:max-w-[65%]">
-            <ServiceSlider arrayPage={product} locale={locale} />
+            <ServiceSlider arrayPage={product} locale={locale} page="urunler"/>
           </div>
         </div>
       </div>
