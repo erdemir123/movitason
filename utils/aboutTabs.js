@@ -4,7 +4,7 @@ export  const tabs = [
         id: 1,
         name: "Hakkımızda",
         poKey: "about",
-        url: ""
+        url: "" 
     },
     {
         id: 2,
@@ -18,6 +18,7 @@ export  const tabs = [
         poKey: "dealership",
         url: ""
     },
+    
     {
         id: 4,
         name: "Demo Başvurusu",
