@@ -1,12 +1,14 @@
+import { useTranslations } from "next-intl";
 import Image from "next/image";
 import React from "react";
 
 export default function Cerez() {
+  const t = useTranslations('cookies');
   return (
     <div className=" flex flex-wrap rounded-4  gap-2 justify-center w-[100%] h-full text-center">
       <div className="my-6 px-2 py-6  bg-red-100/10 rounded-lg">
         <h2 className="text-accent font-bold text-center my-2 ">
-          Çerez Politikası
+        {t(`header`)}
         </h2>
         <p className="font-semibold">
           Birçok web sitesi gibi, movita.com.tr’da da (aşağıda kısaca “Portal”

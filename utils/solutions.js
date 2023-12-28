@@ -9,7 +9,7 @@ import citybus from "../public/citybus.svg"
 import Image from "next/image";
 export const solutions = [
     {
-      icon: <Image src={carprivate} alt="AI Icon" width={100} height={50} className="border"/>,
+      icon: <Image src={carprivate} alt="AI Icon" width={100} height={50}/>,
       title: 'Taksi ve Özel Araçlar',
       description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.',
       href:"Taksi-Ozel-Araclar"

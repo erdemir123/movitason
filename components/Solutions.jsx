@@ -15,7 +15,7 @@ export default function Solutions({ locale }) {
   console.log(isOpen);
   return (
     <>
-      <div className="bg-primary/30 xl:py-36 py-4 rounded-md px-4">
+      <div className="bg-primary/30 xl:py-32 py-4 rounded-md px-4">
         <div className="flex flex-col xl:flex-row ">
           <div className="hidden md:flex  xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0 pt-4 relative  pr-2">
             <div
