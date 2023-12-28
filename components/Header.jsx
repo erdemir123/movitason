@@ -17,7 +17,7 @@ export default function Header() {
           <div className='hidden lg:block'>
           <Typewriter
         options={{
-          strings: [t("camera"), t("car"),t("security")],
+          strings: [t("camera"),  t("car"),t("security")],
           autoStart: true,
           loop: true,
           delay: 100,

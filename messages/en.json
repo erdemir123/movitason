@@ -48,7 +48,7 @@
     "about":"About Us",
     "about_content":"Since its establishment, our company has aimed to make our country competitive with the world in the field of information technologies and reduce our country's dependency on the sector by providing innovative applications. In all projects developed for its clients in different sectors, maximum sensitivity has been shown to innovation, high technology, quality, and customer satisfaction. Our company, providing special corporate IT solutions for its clients in decision support systems and enterprise resource management systems, strives to effectively and efficiently manage their assets. Firmly establishing its position in the industry day by day, our company believes in the high added value of its research and development activities to human life, its country, and the world. Our company aims to shape the future of information technologies and gain respect in this field for Turkey.",
     "mission":"Mission",
-    "mission_content":"Our company has adopted the mission of providing solutions that completely satisfy its customers' expectations, utilizing state-of-the-art technologies in the solutions it offers, always demonstrating innovative approaches, and adding value to the world and humanity with the products it creates.",
+    "mission_content":"Our company has adopted the mission of providing solutions that completely satisfy its customers expectations, utilizing state-of-the-art technologies in the solutions it offers, always demonstrating innovative approaches, and adding value to the world and humanity with the products it creates.",
     "vision":"vision",
     "vision_content":"Our vision as a company is to become a customer-oriented organization, providing high-quality solutions to its customers at all times, and to become a leading entity in the information technology sector, both domestically and internationally.",
     "team":"Team",
@@ -56,6 +56,7 @@
   },
   "cookies":{
     "header":"Cookies Policy",
+<<<<<<< HEAD
     "cookies_content": "Like many websites, Cookies are used on movita.com.tr (hereinafter referred to as the 'Portal' for short) to show advertisements to visitors and to perform traffic analysis on the Portal. Smarteq explains this Policy, which Cookies are used on the Portal and how visitors use them. It has been prepared to explain how to manage your preferences on the subject.",
     "what_is_cookies": "What is Cookie?",
     "what_is_cookies_content": "Cookies are very small text files, usually consisting of letters and numbers, that are saved on your computer (or other devices such as a smartphone or tablet) via browsers by the websites you visit. Cookies do not contain personal data about visitors such as name, gender or address. Cookies are created by the servers that manage the website you visit. This way, the server can understand when the visitor visits the same site. Cookies can be likened to ID cards that show website owners that the same visitor has visited the site again. For more detailed information about cookies, you can visit www.aboutcookies.org and www.allaboutcookies.org.",
@@ -66,5 +67,8 @@
     "cookie_preferences": "How to Manage Cookie Preferences?",
     "cookie_preferences_content_first": "It is extremely important for Smarteq that visitors can freely exercise their preferences regarding what personal data about them can be collected. However, preference management is not possible for Cookies that are mandatory for the Portal to function. We also remind you that if some Cookies are turned off, various functions of the Portal may not work. Information on how you can manage your preferences regarding Cookies used on the Portal is as follows:",
     "cookie_preferences_content_second": "Visitors have the opportunity to personalize their preferences regarding cookies by changing the browser settings on which they view the Portal. If the browser being used offers this opportunity, it is possible to change preferences regarding Cookies through the browser settings. Thus, although it may vary depending on the possibilities offered by the browser, data owners have the opportunity to prevent the use of cookies, choose to receive a warning before a cookie is used, or disable or delete only some Cookies. Although preferences on this subject vary depending on the browser used, it is possible to access the general explanation at https://www.aboutcookies.org/. Preferences regarding cookies may need to be made separately for each device from which the visitor accesses the Portal. The settings menu of the mobile device can be used to manage cookies via mobile devices."
+=======
+    "cookies_content": "Like many websites, Cookies are used on movita.com.tr (here in after referred to as the Portal for short) to show advertisements to visitors and to perform traffic analysis on the Portal. Smarteq explains this Policy, which Cookies are used on the Portal and how visitors use them. It has been prepared to explain how to manage your preferences on the subject."
+>>>>>>> d85407337eb77ab20ba6fb4f6ae582122c54c46f
   }
 }
