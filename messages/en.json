@@ -56,7 +56,6 @@
   },
   "cookies":{
     "header":"Cookies Policy",
-<<<<<<< HEAD
     "cookies_content": "Like many websites, Cookies are used on movita.com.tr (hereinafter referred to as the 'Portal' for short) to show advertisements to visitors and to perform traffic analysis on the Portal. Smarteq explains this Policy, which Cookies are used on the Portal and how visitors use them. It has been prepared to explain how to manage your preferences on the subject.",
     "what_is_cookies": "What is Cookie?",
     "what_is_cookies_content": "Cookies are very small text files, usually consisting of letters and numbers, that are saved on your computer (or other devices such as a smartphone or tablet) via browsers by the websites you visit. Cookies do not contain personal data about visitors such as name, gender or address. Cookies are created by the servers that manage the website you visit. This way, the server can understand when the visitor visits the same site. Cookies can be likened to ID cards that show website owners that the same visitor has visited the site again. For more detailed information about cookies, you can visit www.aboutcookies.org and www.allaboutcookies.org.",
@@ -67,8 +66,5 @@
     "cookie_preferences": "How to Manage Cookie Preferences?",
     "cookie_preferences_content_first": "It is extremely important for Smarteq that visitors can freely exercise their preferences regarding what personal data about them can be collected. However, preference management is not possible for Cookies that are mandatory for the Portal to function. We also remind you that if some Cookies are turned off, various functions of the Portal may not work. Information on how you can manage your preferences regarding Cookies used on the Portal is as follows:",
     "cookie_preferences_content_second": "Visitors have the opportunity to personalize their preferences regarding cookies by changing the browser settings on which they view the Portal. If the browser being used offers this opportunity, it is possible to change preferences regarding Cookies through the browser settings. Thus, although it may vary depending on the possibilities offered by the browser, data owners have the opportunity to prevent the use of cookies, choose to receive a warning before a cookie is used, or disable or delete only some Cookies. Although preferences on this subject vary depending on the browser used, it is possible to access the general explanation at https://www.aboutcookies.org/. Preferences regarding cookies may need to be made separately for each device from which the visitor accesses the Portal. The settings menu of the mobile device can be used to manage cookies via mobile devices."
-=======
-    "cookies_content": "Like many websites, Cookies are used on movita.com.tr (here in after referred to as the Portal for short) to show advertisements to visitors and to perform traffic analysis on the Portal. Smarteq explains this Policy, which Cookies are used on the Portal and how visitors use them. It has been prepared to explain how to manage your preferences on the subject."
->>>>>>> d85407337eb77ab20ba6fb4f6ae582122c54c46f
   }
 }
