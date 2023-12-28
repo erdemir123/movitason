@@ -2,13 +2,13 @@ export  const guide = [
     {
         id: 1,
         name: "movita Servis Kullanım Kılavuzu",
-        poKey: "PROFILE",
+        poKey: "service_app_use",
         url: ""
     },
     {
         id: 2,
         name: "movita Uygulama Kullanım Kılavuzu",
-        poKey: "SOCIAL_MEDIA_ACCOUNTS",
+        poKey: "movita_app_use",
         url: ""
     },
     

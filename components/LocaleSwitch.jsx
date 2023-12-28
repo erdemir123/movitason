@@ -16,7 +16,7 @@ export default function LocaleSwitcher() {
   }
 
   return (
-    <div className="flex justify-center items-center gap-4 mx-4">
+    <div className="flex justify-center items-center gap-4 mx-4 cursor-pointer">
       <div onClick={() => handleLocaleChange("tr")} className="w-8 h-8">
         <Image
           src={tr2}

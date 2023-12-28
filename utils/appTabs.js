@@ -13,7 +13,7 @@ export  const appTabs = [
     {
         id: 1,
         name: "Tümü",
-        poKey: "Tümü",
+        poKey: "all",
         image: <Image src={all} alt="AI Icon" width={15} height={15}/>,
         apps:[
             {
@@ -85,7 +85,7 @@ export  const appTabs = [
     {
         id: 2,
         name: "Android",
-        poKey: "Android",
+        poKey: "android",
         image: <Image src={android} alt="AI Icon" width={15} height={15}/>,
         apps:[
           {
@@ -123,7 +123,7 @@ export  const appTabs = [
     {
         id: 3,
         name: "IOS",
-        poKey: "IOS",
+        poKey: "ios",
         image: <Image src={ios} alt="AI Icon" width={15} height={15}/>,
         apps:[
            
@@ -162,7 +162,7 @@ export  const appTabs = [
     {
         id: 4,
         name: "Windows",
-        poKey: "Windows",
+        poKey: "windows",
         image: <Image src={windows} alt="AI Icon" width={15} height={15}/>,
         apps:[
             {

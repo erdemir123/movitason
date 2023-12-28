@@ -1,6 +1,7 @@
 "use client"
 import React from "react";
 import { motion } from "framer-motion";
+import { useTranslations } from "next-intl";
 
 
 export default function NavTab({ activeId, changeActiveItem, tabs }) {
@@ -18,6 +19,7 @@ export default function NavTab({ activeId, changeActiveItem, tabs }) {
       },
     }),
   };
+  const t = useTranslations('nav');
   return (
     <div className="w-[80%] flex  flex-wrap rounded-4 absolute top-28 bg-red-100/20 gap-2 justify-center py-3 rounded-lg shadow-md px-2">
       {tabs.map((tab, index) => (
@@ -42,7 +44,7 @@ export default function NavTab({ activeId, changeActiveItem, tabs }) {
             } text-start  font-bold flex gap-1 items-center`}
           >
             {tab?.image}
-            {tab.name}
+            {t(`${tab.poKey}`)}
           </p>
         </motion.div>
       ))}

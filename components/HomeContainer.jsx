@@ -3,45 +3,35 @@ import React, { useState } from "react";
 import ParticleContainer from "./ParticleContainer";
 import LinkBtn from "./LinkBtn";
 import MotionP from "./MotionP";
-import Avatar from "./Avatar";
-
-import MotionBtn from "./MotionBtn";
-
 import CountUp from "react-countup";
 import MotionDiv from "./MotionDiv";
 import { preference } from "@/utils/preference";
-import Modal from "./Modal";
 import ModalMovita from "./ModalMovita";
 import ProjectBtn from "./ProjectBtn";
+import { useTranslations } from "next-intl";
 
-export default function HomeContainer({locale}) {
+export default function HomeContainer({ locale }) {
   const [isOpen, setIsOpen] = useState(false);
-
+  const t = useTranslations('home');
   return (
     <>
       <ParticleContainer />
       <div className="flex flex-col text-center justify-center xl:pt-10 xl:text-left h-full container mx-auto  ">
         <MotionDiv />
         <MotionP>
-          movita, mobil araçlar için yerli mühendisler tarafından geliştirilen
-          araç takip ve uzaktan izlemeli kamera kayıt özelliği bulunan bir
-          sistemdir. Yeni nesil takip sistemi olarak bilinen mobil nvr cihazı
-          sayesinde okul taşıtlarında koltuk sensörü cihazımız ile entegreli
-          çalışmaktadır. Ayrıca bir çok yeni çözümler sunmaktadır.
+          {t("content")}
         </MotionP>
-        <div className=" flex justify-around xl:justify-start w-full gap-1 xl:gap-4">
-         
-            <div className=" flex">
-              <LinkBtn title={"Çözümlerimiz"} href={`${locale}/cozumler`} />
-            </div>
-            <div className="">
-              <ProjectBtn
-                title="Neden movita?"
-                handleClick={() => setIsOpen(!isOpen)}
-                isOpen={isOpen}
-              />
-            </div>
-         
+        <div className=" flex justify-around xl:justify-start w-full gap-[2px] xl:gap-4">
+          <div className=" flex">
+            <LinkBtn title={t("solutions")} href={`${locale}/cozumler`} />
+          </div>
+          <div className="">
+            <ProjectBtn
+              title={t("why")}
+              handleClick={() => setIsOpen(!isOpen)}
+              isOpen={isOpen}
+            />
+          </div>
         </div>
 
         <div className="relative after:w-[1px] after:h-full after:bg-white/10 after:absolute after:top-0 after:right-0 mt-4 flex gap-x-14 justify-center xl:justify-start">
@@ -50,13 +40,13 @@ export default function HomeContainer({locale}) {
               <CountUp start={0} end={900} duration={4} /> K+
             </div>
             <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] mb-4 font-bold">
-              Satır kod
+            {t("code")}
             </div>
             <div className="text-2xl xl:text-4xl font-extrabold text-accent ">
               <CountUp start={0} end={1500} duration={4} /> +
             </div>
             <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] font-bold">
-              Memnun Müşteri
+            {t("customer")}
             </div>
           </div>
           <div>
@@ -64,13 +54,13 @@ export default function HomeContainer({locale}) {
               <CountUp start={0} end={20} duration={5} /> +
             </div>
             <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] mb-4 font-bold">
-              Çözümler
+            {t("solution")}
             </div>
             <div className="text-2xl xl:text-4xl font-extrabold text-accent ">
               <CountUp start={0} end={5} duration={5} /> +
             </div>
             <div className="text-xs uppercase tracking-[1px] leading-[1.4] max-w-[100px] font-bold">
-              Yıllık Deneyim
+            {t("year")}
             </div>
           </div>
         </div>
@@ -82,7 +72,9 @@ export default function HomeContainer({locale}) {
         </div>
       </div> */}
 
-      {isOpen && <ModalMovita setIsOpen={()=>setIsOpen(!isOpen)}  array={preference} />}
+      {isOpen && (
+        <ModalMovita setIsOpen={() => setIsOpen(!isOpen)} array={preference} />
+      )}
     </>
   );
 }

@@ -3,37 +3,43 @@ export  const tabs = [
     {
         id: 1,
         name: "Hakkımızda",
-        poKey: "PROFILE",
+        poKey: "about",
         url: ""
     },
     {
         id: 2,
         name: "Belgelerimiz",
-        poKey: "SOCIAL_MEDIA_ACCOUNTS",
+        poKey: "document",
         url: ""
     },
     {
         id: 3,
         name: "Bayilik Başvurusu",
-        poKey: "FACE_IMAGE_RECOGNITION",
+        poKey: "dealership",
         url: ""
     },
     {
         id: 4,
         name: "Demo Başvurusu",
-        poKey: "Privacy TAB under settings.Privacy",
+        poKey: "demo",
         url: ""
     },
     {
         id: 5,
         name: "Çerez Politikası",
-        poKey: "ACTIVITY_TIMELINE",
+        poKey: "cookie_politic",
         url: ""
     },
     {
         id: 6,
         name: "KVKK",
-        poKey: "FAQ",
+        poKey: "kvkk",
+        url: ""
+    },
+    {
+        id: 7,
+        name: "Yapay Zeka",
+        poKey: "artificial_intelligence",
         url: ""
     },
     

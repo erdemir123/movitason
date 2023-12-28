@@ -11,7 +11,7 @@ import { solutions } from "@/utils/solutions";
 import SwiperPartner from "@/components/SwiperPartner";
 
 
-export default function page() {
+export default function page({params: { locale }}) {
   return (
     <PageContainer>
       <div className="bg-primary/30 xl:py-36 py-4 rounded-md px-4">
@@ -45,7 +45,7 @@ export default function page() {
             </MotionP>
           </div>
           <div className="w-full xl:max-w-[65%]">
-            <ServiceSlider arrayPage={solutions}/>
+            <ServiceSlider arrayPage={solutions} locale={locale}/>
           </div>
         </div>
       </div>

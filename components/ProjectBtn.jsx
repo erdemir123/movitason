@@ -15,7 +15,7 @@ export default function ProjectBtn({title,handleClick,isOpen}) {
     <button
       type='button'
       onClick={handleClick}
-      className="bg-accent text-center font-extrabold px-8 py-2 rounded-lg flex justify-center relative w-48 border group cursor-pointer"
+      className="bg-accent font-bold text-[16px] py-2 rounded-lg flex justify-center relative w-32 md:w-48 border group cursor-pointer"
     >
       {title}
     </button>

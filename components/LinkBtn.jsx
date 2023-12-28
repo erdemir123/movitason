@@ -14,7 +14,7 @@ export default function LinkBtn({ title, href }) {
     >
       <Link
         href={href}
-        className="bg-accent text-center font-extrabold px-8 py-2 rounded-lg flex justify-center relative w-48 border group cursor-pointer"
+        className="bg-accent font-bold py-2 rounded-lg flex justify-center relative w-36 md:w-48 border group cursor-pointer"
       >
         {title}
       </Link>

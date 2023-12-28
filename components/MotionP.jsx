@@ -10,7 +10,7 @@ export default function MotionP({children}) {
             initial="hidden"
             animate="show"
             exit="hidden"
-            className="max-w-[100%] xl:max-w-xl mx-auto xl:mx-0 mb-10 xl:mb-4 font-bold "
+            className="max-w-[100%] xl:max-w-xl mx-auto xl:mx-0 mb-4 xl:mb-4 font-bold "
           >
             {children}
             
