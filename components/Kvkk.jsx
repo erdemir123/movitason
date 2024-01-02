@@ -1,32 +1,18 @@
 import Image from "next/image";
 import React from "react";
+import { useTranslations } from "next-intl";
 
 export default function Kvkk() {
+  const t = useTranslations("kvkk");
+
   return (
     <div className=" flex flex-wrap rounded-4  gap-2 justify-center w-[100%] h-full text-center">
       <div className="my-6 px-2 py-6  bg-red-100/10 rounded-lg">
         <h2 className="text-accent font-bold text-center my-2 ">
-          Kişisel Verilerin İşlenme Politikası
+        {t(`title`)}
         </h2>
         <p className="font-semibold">
-          SMARTEQ BİLİŞİM.(Bundan sonra kısaca “Şirket” olarak anılacaktır)
-          sizlere ait kişisel verilerinizin ve özel bilgilerinizin korunması
-          bizim için değerlidir. Bu nedenle SMARTEQ BİLİŞİM. ile ilişkili
-          şahıslara ait kişisel verilerin 6698 sayılı Kişisel Verilerin
-          Korunması Kanunu’na (“KVKK”) uygun olarak işlenerek, muhafaza edilmesi
-          hususunda gereken bütün gayret ve özeni gösteriyoruz. Veri Sorumlusu
-          sıfatıyla SMARTEQ BİLİŞİM. kişisel verilerinizle ilgili bütün
-          işlemlerde verilerinizin korunması için gereken idari ve teknik
-          tedbirler almakta, KVK Kanunu doğrultusunda, kişisel verilerinizi
-          aşağıda açıklanan şartlarda ve mevzuatta öngörülen sınırlar dahilinde
-          işlemektedir. İnternet sitemizin ziyaret edilmesi sırasında kaydedilen
-          kişisel bilgiler, Kişisel Verilerin Korunmasına ilişkin mevzuat
-          gereğince işlenmektedir. Bu konuda yine sayfamızda bulabileceğiniz
-          Gizlilik Politikamızı inceleyiniz. Ancak önemle belirtelim ki, SMARTEQ
-          BİLİŞİM. internet sitesinde yapılan yönlendirmelerde (link verilen)
-          diğer internet sitelerindeki veri güvenliği konusunda bir garanti
-          sunulamamaktadır. Bu konuda ilgili sayfanın veri güvenliği ile ilgili
-          politikası dikkatlice incelenmelidir.
+        {t(`content`)}
         </p>
       </div>
       <div className="w-full flex justify-center relative">
@@ -41,25 +27,10 @@ export default function Kvkk() {
       </div>
       <div className="my-6 px-2 py-6  bg-red-100/10 rounded-lg">
         <h2 className="text-accent font-bold text-center my-2 ">
-          HUKUKİ NİTELİK VE KAPSAM
+          {t(`law`)}
         </h2>
         <p className="font-semibold">
-          6698 sayılı Kişisel Verilerin Korunması Kanunu’nun (“KVKK”) 10’uncu
-          maddesi, verileri işlenen kimselerin onayları alınırken kendisinin
-          aydınlatılmasını istemiştir. Madde başlığı “Veri Sorumlusunun
-          Aydınlatma Yükümlülüğü” ’dür. KVKK hükümlerine göre SMARTEQ BİLİŞİM.
-          “Veri Sorumlusu” dur. Bu çerçevede, aydınlatma yükümlülüğü ile veri
-          sahiplerini veri sorumlusunun kimliği, kişisel veri işleme amaçları,
-          kişisel verilerin aktarıldığı kişiler ve aktarma amaçları, kişisel
-          verilerin toplanmasının hukuki sebepleri, kimlere aktarılabileceği ve
-          yöntemleri, kişisel veri sahibinin veri sorumlusuna yönelteceği
-          güncelleme, silinme ya da anonimleştirme gibi KVK Kanunu’nun 11’inci
-          maddesinde sayılan hakları konusunda bilgilendirme yükümlülüğü
-          getirmiştir. Veri Sorumlusu sıfatıyla SMARTEQ BİLİŞİM. Kişisel
-          Verilerin İşlenmesine İlişkin Aydınlatma Metni ile KVKK’nin 10’uncu
-          maddesi hükmü uyarınca kişisel verilerinizi mevzuatta öngörülen
-          sınırlar ve şartlar dahilinde işlediği hususunda veri sahiplerini
-          bilgilendirmekte ve aydınlatmaktadır.
+        {t(`law_content`)}
         </p>
       </div>
       <div className="w-full flex justify-center relative">
@@ -75,16 +46,10 @@ export default function Kvkk() {
       <div className="flex flex-wrap gap-2 justify-center">
         <div className="w-full  xl:w-[48%] my-6 px-2 py-6  bg-red-100/10 rounded-lg ">
           <h2 className="font-bold text-accent text-center">
-            VERİ SORUMLUSUNUN KİMLİĞİ
+          {t(`data_indentity`)}
           </h2>
           <p className="font-semibold">
-            KVK’nin 3’üncü maddesinin 1’inci fıkrasının (ı) bendinde veri
-            sorumlusu, “Kişisel verilerin işleme amaçlarını ve vasıtalarını
-            belirleyen, veri kayıt sisteminin kurulmasından ve yönetilmesinden
-            sorumlu olan gerçek veya tüzel kişiler” olarak tanımlanmıştır. Bu
-            çerçevede veri sorumlusu, internet sayfasını ziyaret ettiğiniz
-            SMARTEQ BİLİŞİM.’dir. Beştepe Mahallallesi Nergiz Sokak No:7/2 Via
-            Flat Yenimahalle/ANKARA bilgi@movita.com.tr
+          {t(`data_indentity_content`)}
           </p>
         </div>
 
