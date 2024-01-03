@@ -100,17 +100,17 @@
     "dealer_info":"Bayi Bilgileri",
     "commertial":"Ticari Ünvan",
     "tax":"Vergi Numarası",
-    "administration":"Tax Administration",
-    "office":"Office Area(m2)",
-    "representative":"Dealer Representative",
-    "employees":"Number Of Employeees",
-    "sold": "Sold Products",
-    "adress_info":"Address Info",
-    "phone":"Phone Number",
+    "administration":"Tax Dairesi",
+    "office":"Ofis Alanı(m2)",
+    "representative":"Bayi Yetkilisi",
+    "employees":"Çalışan Sayısı",
+    "sold": "Satılan Ürünler",
+    "adress_info":"Adres Bilgileri",
+    "phone":"Telefon Numarası",
     "email":"Email",
     "web_site":"Web Site Adress",
-    "adress":"Adress",
-    "submit":""
+    "adress":"Adres",
+    "submit":"Bayilik Başvurusunu Tamamla"
 
   }
 }

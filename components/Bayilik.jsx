@@ -2,7 +2,7 @@ import { useTranslations } from "next-intl";
 import React, { useState } from "react";
 
 export default function Bayilik() {
-  const t = useTranslations("kvkk");
+  const t = useTranslations("dealer");
   
   const [dealer, setDealer] = useState({
     bayi_adi: "",
@@ -41,14 +41,14 @@ export default function Bayilik() {
         <div className="flex flex-col md:flex-row flex-wrap justify-center gap-6 bg-primary/30 rounded-lg">
           <div className="w-full md:w-[45%] p-2">
             <h3 className="font-bold mb-4 text-2xl underline ">
-              Bayi Bilgileri
+            {t(`dealer_info`)}
             </h3>
             <div className="mb-4">
               <label
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="name"
               >
-                Ticari Ünvan <span className="text-red-500">*</span>
+                 {t(`commertial`)} <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 leading-tight focus:outline-none focus:shadow-outline"
@@ -56,7 +56,7 @@ export default function Bayilik() {
                 name="bayi_adi"
                 value={dealer.bayi_adi}
                 type="text"
-                placeholder="Ticari Ünvanın"
+                placeholder={t(`commertial`)}
                 onChange={(e)=>setDealer({...dealer, [e.target.name]:e.target.value})}
               />
             </div>
@@ -65,7 +65,7 @@ export default function Bayilik() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="tax_name"
               >
-                Vergi Numarası <span className="text-red-500">*</span>
+                 {t(`tax`)} <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -73,7 +73,7 @@ export default function Bayilik() {
                 name="vergi_no"
                 value={dealer.vergi_no}
                 type="text"
-                placeholder="Vergi Numarası"
+                placeholder={t(`tax`)}
                 onChange={(e)=>setDealer({...dealer, [e.target.name]:e.target.value})}
               />
             </div>
@@ -82,7 +82,7 @@ export default function Bayilik() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="tax_home"
               >
-                Vergi Dairesi <span className="text-red-500">*</span>
+                {t(`administration`)} <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -90,7 +90,7 @@ export default function Bayilik() {
                 name="vergi_dairesi"
                 value={dealer.vergi_dairesi}
                 type="text"
-                placeholder="Vergi Dairesi"
+                placeholder={t(`administration`)}
                 onChange={(e)=>setDealer({...dealer, [e.target.name]:e.target.value})}
               />
             </div>
@@ -99,7 +99,7 @@ export default function Bayilik() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="office"
               >
-                Ofis Alanı(M2) <span className="text-red-500">*</span>
+                {t(`office`)} <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -107,7 +107,7 @@ export default function Bayilik() {
                 name="ofis_m2"
                 value={dealer.ofis_m2}
                 type="text"
-                placeholder="Ofis Alanı"
+                placeholder={t(`office`)}
                 onChange={(e)=>setDealer({...dealer, [e.target.name]:e.target.value})}
               />
             </div>
@@ -116,7 +116,7 @@ export default function Bayilik() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="official"
               >
-                Bayı Yetkilisi<span className="text-red-500">*</span>
+                {t(`representative`)}<span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -124,7 +124,7 @@ export default function Bayilik() {
                 name="yetkili"
                 value={dealer.yetkili}
                 type="text"
-                placeholder="Bayi Yetkilisi"
+                placeholder={t(`representative`)}
                 onChange={(e)=>setDealer({...dealer, [e.target.name]:e.target.value})}
               />
             </div>
@@ -133,7 +133,7 @@ export default function Bayilik() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="official"
               >
-                Çalışan Sayısı<span className="text-red-500">*</span>
+                {t(`employees`)}<span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -141,7 +141,7 @@ export default function Bayilik() {
                 name="calisan_sayisi"
                 value={dealer.calisan_sayisi}
                 type="text"
-                placeholder="Çalışan Sayısı"
+                placeholder={t(`employees`)}
                 onChange={(e)=>setDealer({...dealer, [e.target.name]:e.target.value})}
               />
             </div>
@@ -150,7 +150,7 @@ export default function Bayilik() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="sales_product"
               >
-                Satılan Ürünler<span className="text-red-500">*</span>
+                {t(`sold`)}<span className="text-red-500">*</span>
               </label>
               <textarea
                 cols={20}
@@ -159,19 +159,19 @@ export default function Bayilik() {
                 name="sattigi_urunler"
                 value={dealer.sattigi_urunler}
                 type="text"
-                placeholder="Satılan Ürünler"
+                placeholder={t(`sold`)}
                 onChange={(e)=>setDealer({...dealer, [e.target.name]:e.target.value})}
               />
             </div>
           </div>
           <div className="w-full md:w-[50%] p-2 ">
-            <h3 className="font-bold mb-4 text-2xl underline">Lokasyon</h3>
+            <h3 className="font-bold mb-4 text-2xl underline">{t(`adress_info`)}</h3>
             <div className="mb-4">
               <label
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="tel"
               >
-                Telefon <span className="text-red-500">*</span>
+                {t(`phone`)} <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 leading-tight focus:outline-none focus:shadow-outline"
@@ -179,7 +179,7 @@ export default function Bayilik() {
                 type="tel"
                 name="telefon"
                 value={dealer.telefon}
-                placeholder="Telefon"
+                placeholder={t(`phone`)}
                 onChange={(e)=>setDealer({...dealer, [e.target.name]:e.target.value})}
               />
             </div>
@@ -188,7 +188,7 @@ export default function Bayilik() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="email"
               >
-                Email <span className="text-red-500">*</span>
+                {t(`email`)} <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -196,7 +196,7 @@ export default function Bayilik() {
                 type="email"
                 name="email"
                 value={dealer.email}
-                placeholder="Email"
+                placeholder={t(`email`)}
                 onChange={(e)=>setDealer({...dealer, [e.target.name]:e.target.value})}
               />
             </div>
@@ -205,7 +205,7 @@ export default function Bayilik() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="web_site"
               >
-                WEB SITE ADRESI <span className="text-red-500">*</span>
+                {t(`web_site`)} <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -213,7 +213,7 @@ export default function Bayilik() {
                 type="url"
                 name="web_site"
                 value={dealer.web_site}
-                placeholder="Web Site Adresi"
+                placeholder={t(`web_site`)}
                 onChange={(e)=>setDealer({...dealer, [e.target.name]:e.target.value})}
               />
             </div>
@@ -222,7 +222,7 @@ export default function Bayilik() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="adress"
               >
-                Adres <span className="text-red-500">*</span>
+                {t(`adress`)} <span className="text-red-500">*</span>
               </label>
               <textarea
                 className="shadow appearance-none border min-h-[240px] rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -230,7 +230,7 @@ export default function Bayilik() {
                 type="text"
                 name="adres"
                 value={dealer.adres}
-                placeholder="Adres"
+                placeholder= {t(`adress`)}
                 onChange={(e)=>setDealer({...dealer, [e.target.name]:e.target.value})}
               />
             </div>
@@ -241,7 +241,7 @@ export default function Bayilik() {
             className="bg-accent hover:bg-accent/80 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="submit"
           >
-            Mesaj Gönder
+            {t(`submit`)}
           </button>
         </div>
       </form>
