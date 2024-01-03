@@ -69,31 +69,10 @@ export default function Kvkk() {
         />
         <div className="w-full my-6 px-2 py-6   bg-red-100/10 rounded-lg">
           <h2 className="font-bold text-accent text-center">
-            KİŞİSEL VERİLERİNİZİN İŞLENME AMAÇLARI
+          {t(`purpose`)}
           </h2>
           <p className="font-semibold">
-            Kişisel verileriniz KVK Kanunu’ndaki ilkeler doğrultusunda; SMARTEQ
-            BİLİŞİM. tarafından sunulan ürün ve hizmetlerden haberdar
-            olabilmeniz, sizlerin daha iyi yararlandırılması; SMARTEQ BİLİŞİM.
-            tarafından sunulan ürünlerin/hizmetlerin kalitesinin artırılması,
-            müşterilerimizin ihtiyaçları, beğenileri ve kullanım
-            alışkanlıklarına göre özelleştirilerek sunumu ve önerilmesi; Sizleri
-            hizmetlerimiz konusunda bilgilendirebilmek ve gerekli durumlarda da
-            sizleri aydınlatılması; İnsan kaynakları politikalarımızın en iyi
-            şekilde planlanması ve uygulanması; ticari ortaklıklarımızın ve
-            stratejilerimizin doğru olarak planlanması ve yürütülmesi;
-            Şirketimizin ve iş ortaklarımızın hukuki, ticari ve fiziki
-            güvenliğinin temini, Şirket kurumsal işleyişinin sağlanması,
-            Şirketimiz tarafından sunulan ürün ve hizmetlerden sizleri en iyi
-            şekilde faydalandırmak için çalışmaların yapılması, Veri
-            güvenliğinin sağlanması, veri tabanlarının oluşturulması, şirketimiz
-            internet sitesinde sunulan hizmetlerin geliştirilmesi, Şirketimize
-            talep ve şikayetlerini iletenler ile iletişime geçilmesi, Şirketimiz
-            internet sitesinde oluşan hataların giderilmesi ve internet
-            sitemizden paylaşılmış olan Gizlilik Politikasında yer alan
-            hükümlerin uygunluğunun sağlanması, Şirkete ait stratejilerin
-            belirlenmesi amaçlarıyla KVKK’nin 5. ve 6. maddelerinde belirtilen
-            kişisel veri işleme şartları kapsamında işlenir.
+          {t(`purpose_content`)}
           </p>
         </div>
         <div className="w-full flex justify-center relative">
@@ -111,25 +90,19 @@ export default function Kvkk() {
         <div className="flex flex-wrap gap-2 justify-center">
           <div className="w-full  xl:w-[48%] my-6 px-2 py-6  bg-red-100/10 rounded-lg ">
             <h2 className="font-bold text-accent text-center">
-              KİŞİSEL VERİLERİ İŞLEMEYE İLİŞKİN İLKELERİMİZ
+            {t(`principles`)}
             </h2>
             <p className="font-semibold">
-              SMARTEQ BİLİŞİM. olarak; Hukuka ve dürüstlük kurallarına uygun
-              işlemeyi, Doğru ve güncelliği sağlama gayretinde olmayı, Belirli,
-              açık ve meşru amaçlar için işlenmeyi, İşlendikleri amaçla
-              bağlantılı, sınırlı ve ölçülü olmayı, İlgili mevzuatta öngörülen
-              veya işlendikleri amaç için gerekli olan süre kadar muhafaza
-              edilmeyi ilke edindik.
+            {t(`principles_content`)}
             </p>
           </div>
 
           <div className="w-full  xl:w-[48%] my-6 px-2 py-6  bg-red-100/10 rounded-lg">
             <h2 className="font-bold text-accent text-center">
-              KİŞİSEL VERİLERİN İŞLENME YOLLARI
+            {t(`way_of_processing`)}
             </h2>
             <p className="font-semibold">
-              Verileriniz, SMARTEQ BİLİŞİM. ’de ancak açık rızanız ya da Kanuna
-              uygunluk hallerinden birinin varlığı halinde tutulur ve işlenir.
+             {t(`way_of_processing_content`)}
             </p>
           </div>
           <Image

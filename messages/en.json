@@ -75,7 +75,14 @@
     "data_indentity":"DATA RESPONSIBILITY IDENTITY",
     "data_indentity_content":"In subparagraph (i) of paragraph 1 of Article 3 of KVK, data controller is defined as real or legal persons who determine the purposes and means of processing personal data and are responsible for establishing and managing the data recording system. In this context, the data controller is SMARTEQ BİLİŞİM, whose website you visit. Beştepe Mahallallesi Nergiz Sokak No:7/2 Via Flat Yenimahalle/ANKARA bilgi@movita.com.tr",
     "processing_data":"DATA PROCESSOR",
-    "processing_data_content":"The real or legal person who processes personal data on behalf of the data controller, based on the authority given by the data controller, is defined as Data Processor in article 3 of the KVKK."
+    "processing_data_content":"The real or legal person who processes personal data on behalf of the data controller, based on the authority given by the data controller, is defined as Data Processor in article 3 of the KVKK.",
+    "purpose":"PURPOSES OF PROCESSING YOUR PERSONAL DATA",
+    "purpose_content":"Your personal data in line with the principles in the KVK Law; To be informed about the products and services offered by SMARTEQ BİLİŞİM and to benefit you better; SMARTEQ BİLİŞİM. Increasing the quality of the products/services offered by, presenting and recommending them by customizing them according to the needs, tastes and usage habits of our customers; To inform you about our services and to inform you when necessary; Planning and implementing our human resources policies in the best possible way; proper planning and execution of our commercial partnerships and strategies; Ensuring the legal, commercial and physical security of our company and our business partners, ensuring the corporate functioning of the company, working to make you benefit from the products and services offered by our company in the best way, ensuring data security, creating databases, improving the services offered on our company's website, requesting and It is processed within the scope of the personal data processing conditions specified in Articles 5 and 6 of the KVKK for the purposes of communicating with those who submit their complaints, correcting errors on our Company's website, ensuring compliance with the provisions in the Privacy Policy shared on our website, and determining the Company's strategies.",
+    "principles":"OUR PRINCIPLES ON PROCESSING PERSONAL DATA",
+    "principles_content":"SMARTEQ BİLİŞİM. aspect; We have adopted the principle of processing in accordance with the law and the rules of honesty, To strive to ensure accuracy and up-to-dateness, To be processed for specific, clear and legitimate purposes, To be limited and proportionate to the purpose for which they are processed, To be stored for the period foreseen in the relevant legislation or required for the purpose for which they are processed.",
+    "way_of_processing":"KİŞİSEL VERİLERİN İŞLENME YOLLARI",
+    "way_of_processing_content":"Your data is kept and processed at SMARTEQ BİLİŞİM only in case of your explicit consent or compliance with the Law."
+    
 
   }
 }
