@@ -54,11 +54,9 @@ export default function Kvkk() {
         </div>
 
         <div className="w-full  xl:w-[48%] my-6 px-2 py-6  bg-red-100/10 rounded-lg">
-          <h2 className="font-bold text-accent text-center">VERİ İŞLEYEN</h2>
+          <h2 className="font-bold text-accent text-center">{t(`processing_data`)}</h2>
           <p className="font-semibold">
-            Veri sorumlusunun verdiği yetkiye dayanarak onun adına kişisel
-            verileri işleyen gerçek veya tüzel kişi KVKK m. 3’te “Veri İşleyen”
-            olarak tanımlanmıştır.
+          {t(`processing_data_content`)}
           </p>
         </div>
         <Image
