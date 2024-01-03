@@ -96,5 +96,22 @@
   "movita_KSS":"movita KSS 01 Seat Sensor",
   "movita_ISO":"movita ISO 9001 Certificate",
   "ECE_R-118":"ECE R-118 REPORT"
+  },
+  "dealer": {
+    "dealer_info":"Dealer Info",
+    "commertial":"Commertial Title",
+    "tax":"Tax Number",
+    "administration":"Tax Administration",
+    "office":"Office Area(m2)",
+    "representative":"Dealer Representative",
+    "employees":"Number Of Employeees",
+    "sold": "Sold Products",
+    "adress_info":"Address Info",
+    "phone":"Phone Number",
+    "email":"Email",
+    "web_site":"Web Site Adress",
+    "adress":"Adress",
+    "submit":""
+
   }
 }

@@ -91,9 +91,26 @@
     "data_owner_content":"Kişisel veri sahipleri olarak, KVK Kanunu m. 11’de sayılan haklarınıza ilişkin taleplerinizi, işbu Aydınlatma Metninde aşağıda düzenlenen yöntemlerle Şirketimize iletmeniz durumunda Şirketimiz niteliğine göre, talebi en geç otuz gün içinde ücretsiz olarak sonuçlandıracaktır. Ancak, Kişisel Verileri Koruma Kurulunca bir ücret öngörülmesi halinde, Şirketimiz tarafından belirlenen tarifedeki ücret alınacaktır. Ayrıca yürürlükte olan mevzuat uyarınca kişisel verilere ilişkin başvurular veri sahibinin bizzat kendisi tarafından yapılmak zorunda olduğundan başvurularınızın sadece sizlerle ilgili kısmı cevaplanacak olup, eşiniz, yakınınız ya da arkadaşınız hakkında yapılan bir başvuru kabul edilmeyecektir. Bu kapsamda kişisel veri sahipleri SMARTEQ BİLİŞİM. tarafından internet sayfamızda duyurulan ilgilimize başvurarak kendinizle ilgili olarak; Kişisel veri işlenip işlenmediğini öğrenme, Kişisel verileri işlenmişse buna ilişkin bilgi talep etme, Kişisel verilerin işlenme amacını ve bunların amacına uygun kullanılıp kullanılmadığını öğrenme, Yurt içinde veya yurt dışında kişisel verilerin aktarıldığı üçüncü kişileri bilme, Kişisel verilerin eksik veya yanlış işlenmiş olması hâlinde bunların düzeltilmesini isteme ve bu kapsamda yapılan işlemin kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme, KVK Kanununun ve ilgili diğer kanun hükümlerine uygun olarak işlenmiş olmasına rağmen, işlenmesini gerektiren sebeplerin ortadan kalkması hâlinde kişisel verilerin silinmesini veya yok edilmesini isteme ve bu kapsamda yapılan işlemin kişisel verilerin aktarıldığı üçüncü kişilere bildirilmesini isteme, İşlenen verilerin münhasıran otomatik sistemler vasıtasıyla analiz edilmesi suretiyle kişinin kendisi aleyhine bir sonucun ortaya çıkmasına itiraz etme, Kişisel verilerin kanuna aykırı olarak işlenmesi sebebiyle zarara uğraması hâlinde zararın giderilmesini talep etme haklarına sahipsiniz."
   },
   "certificate": {
-  "MNVR_TS":"movita MNVR Mobil Kayıt ve Araç Takip Cihazı",
-  "KSS":"movita KSS 01 Koltuk Sensörü",
-  "ISO":"movita ISO 9001 Belgemiz",
-  "ECE_R-118":"ECE R-118 RAPORU"
+    "MNVR_TS":"movita MNVR Mobil Kayıt ve Araç Takip Cihazı",
+    "KSS":"movita KSS 01 Koltuk Sensörü",
+    "ISO":"movita ISO 9001 Belgemiz",
+    "ECE_R-118":"ECE R-118 RAPORU"
+  },
+  "dealer": {
+    "dealer_info":"Bayi Bilgileri",
+    "commertial":"Ticari Ünvan",
+    "tax":"Vergi Numarası",
+    "administration":"Tax Administration",
+    "office":"Office Area(m2)",
+    "representative":"Dealer Representative",
+    "employees":"Number Of Employeees",
+    "sold": "Sold Products",
+    "adress_info":"Address Info",
+    "phone":"Phone Number",
+    "email":"Email",
+    "web_site":"Web Site Adress",
+    "adress":"Adress",
+    "submit":""
+
   }
 }

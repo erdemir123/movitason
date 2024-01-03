@@ -1,6 +1,9 @@
+import { useTranslations } from "next-intl";
 import React, { useState } from "react";
 
 export default function Bayilik() {
+  const t = useTranslations("kvkk");
+  
   const [dealer, setDealer] = useState({
     bayi_adi: "",
     vergi_no: "",
