@@ -1,6 +1,9 @@
+import { useTranslations } from "next-intl";
 import React, { useState } from "react";
 
 export default function Demo() {
+  const t = useTranslations("demo");
+
   const [dealer, setDealer] = useState({
     adi: "",
     soyadi: "",

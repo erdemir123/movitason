@@ -112,6 +112,21 @@
     "web_site":"Web Site Adress",
     "adress":"Adress",
     "submit":"Complete the Dealership Application"
-
+  },
+  "demo": {
+    "dealer_info":"Dealer Info",
+    "commertial":"Commertial Title",
+    "tax":"Tax Number",
+    "administration":"Tax Administration",
+    "office":"Office Area(m2)",
+    "representative":"Dealer Representative",
+    "employees":"Number Of Employeees",
+    "sold": "Sold Products",
+    "adress_info":"Address Info",
+    "phone":"Phone Number",
+    "email":"Email",
+    "web_site":"Web Site Adress",
+    "adress":"Adress",
+    "submit":"Complete the Dealership Application"
   }
 }
