@@ -112,5 +112,17 @@
     "adress":"Adres",
     "submit":"Bayilik Başvurusunu Tamamla"
 
+  },
+  "demo": {
+    "name":"Adınız",
+    "surname":"Soyadınız",
+    "phone":"Telefon Numaranız",
+    "phone_second":"Alternatif Telefon",
+    "email":"Mail Adresiniz",
+    "title":"Ünvanınız",
+    "vehicles":"Araç Sayınız",
+    "company":"Kurum Adı",
+    "descriptions":"Açıklamalar",
+    "submit":"Başvuruyu Tamamla"
   }
 }

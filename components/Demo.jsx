@@ -43,7 +43,7 @@ export default function Demo() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="name"
               >
-                Adınız: <span className="text-red-500">*</span>
+                {t(`name`)}: <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 leading-tight focus:outline-none focus:shadow-outline"
@@ -51,7 +51,7 @@ export default function Demo() {
                 name="adi"
                 value={dealer.adi}
                 type="text"
-                placeholder="Adınız..."
+                placeholder={t(`your_name`)}
                 onChange={(e) =>
                   setDealer({ ...dealer, [e.target.name]: e.target.value })
                 }
@@ -62,7 +62,7 @@ export default function Demo() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="tel1"
               >
-                Telefon: <span className="text-red-500">*</span>
+                {t(`phone`)}: <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -70,7 +70,7 @@ export default function Demo() {
                 name="telefon1"
                 value={dealer.telefon1}
                 type="text"
-                placeholder="Telefon Numaranız..."
+                placeholder={t(`your_phone`)}
                 onChange={(e) =>
                   setDealer({ ...dealer, [e.target.name]: e.target.value })
                 }
@@ -81,7 +81,7 @@ export default function Demo() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="tax_email"
               >
-                Mail Adresiniz: <span className="text-red-500">*</span>
+                {t(`email`)}: <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -89,7 +89,7 @@ export default function Demo() {
                 name="email"
                 value={dealer.email}
                 type="text"
-                placeholder="Mail Adresiniz..."
+                placeholder= {t(`email`)}
                 onChange={(e) =>
                   setDealer({ ...dealer, [e.target.name]: e.target.value })
                 }
@@ -100,7 +100,7 @@ export default function Demo() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="unvan"
               >
-                Ünvanınız: <span className="text-red-500">*</span>
+                {t(`title`)}: <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -108,7 +108,7 @@ export default function Demo() {
                 name="unvan"
                 value={dealer.unvan}
                 type="text"
-                placeholder="Ünvanınız."
+                placeholder={t(`title`)}
                 onChange={(e) =>
                   setDealer({ ...dealer, [e.target.name]: e.target.value })
                 }
@@ -121,7 +121,7 @@ export default function Demo() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="surname"
               >
-                Soyadınız: <span className="text-red-500">*</span>
+                {t(`surname`)}: <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 leading-tight focus:outline-none focus:shadow-outline"
@@ -129,7 +129,7 @@ export default function Demo() {
                 name="soyadi"
                 value={dealer.soyadi}
                 type="text"
-                placeholder="Soyadınız..."
+                placeholder={t(`your_surname`)}
                 onChange={(e) =>
                   setDealer({ ...dealer, [e.target.name]: e.target.value })
                 }
@@ -140,7 +140,7 @@ export default function Demo() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="tel2"
               >
-                Alternatif Telefon: <span className="text-red-500">*</span>
+                {t(`phone_second`)}: <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -148,7 +148,7 @@ export default function Demo() {
                 name="telefon2"
                 value={dealer.telefon2}
                 type="tel"
-                placeholder="Alternatif Telefon Numaranız..."
+                placeholder={t(`phone_second`)}
                 onChange={(e) =>
                   setDealer({ ...dealer, [e.target.name]: e.target.value })
                 }
@@ -159,7 +159,7 @@ export default function Demo() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="car_count"
               >
-                Araç Sayınız: <span className="text-red-500">*</span>
+                {t(`vehicles`)}: <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -167,7 +167,7 @@ export default function Demo() {
                 name="aracsayisi"
                 value={dealer.aracsayisi}
                 type="text"
-                placeholder="Araç Sayınız"
+                placeholder= {t(`vehicles`)}
                 onChange={(e) =>
                   setDealer({ ...dealer, [e.target.name]: e.target.value })
                 }
@@ -178,7 +178,7 @@ export default function Demo() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="kurum_adi"
               >
-                Kurum Adı: <span className="text-red-500">*</span>
+                {t(`company`)}: <span className="text-red-500">*</span>
               </label>
               <input
                 className="shadow appearance-none border rounded w-full py-2 px-3 text-slate-500 mb-3 leading-tight focus:outline-none focus:shadow-outline"
@@ -186,7 +186,7 @@ export default function Demo() {
                 name="kurum_adi"
                 value={dealer.kurum_adi}
                 type="text"
-                placeholder="Kurumunuzun Adı..."
+                placeholder= {t(`company`)}
                 onChange={(e) =>
                   setDealer({ ...dealer, [e.target.name]: e.target.value })
                 }
@@ -199,7 +199,7 @@ export default function Demo() {
                 className="block text-accent text-sm font-bold mb-2"
                 htmlFor="description"
               >
-                Açıklama: <span className="text-red-500">*</span>
+                {t(`descriptions`)}: <span className="text-red-500">*</span>
               </label>
               <textarea
                 className="shadow appearance-none border rounded w-full min-h-[150px] py-2 px-3 text-slate-500 leading-tight focus:outline-none focus:shadow-outline"
@@ -207,6 +207,7 @@ export default function Demo() {
                 name="aciklama"
                 value={dealer.aciklama}
                 type="text"
+                placeholder={t(`descriptions`)}
                 onChange={(e) =>
                   setDealer({ ...dealer, [e.target.name]: e.target.value })
                 }
@@ -221,7 +222,7 @@ export default function Demo() {
             className="bg-accent hover:bg-accent/80 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline"
             type="submit"
           >
-            Mesaj Gönder
+            {t(`submit`)}
           </button>
         </div>
       </form>

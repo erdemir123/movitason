@@ -114,19 +114,18 @@
     "submit":"Complete the Dealership Application"
   },
   "demo": {
-    "dealer_info":"Dealer Info",
-    "commertial":"Commertial Title",
-    "tax":"Tax Number",
-    "administration":"Tax Administration",
-    "office":"Office Area(m2)",
-    "representative":"Dealer Representative",
-    "employees":"Number Of Employeees",
-    "sold": "Sold Products",
-    "adress_info":"Address Info",
+    "name":"Name",
+    "your_name":"Your Name...",
+    "surname":"Surname",
+    "your_surname":"Your Surname...",
     "phone":"Phone Number",
+    "your_phone":"Your Phone Number...",
+    "phone_second":"Alternative Phone",
     "email":"Email",
-    "web_site":"Web Site Adress",
-    "adress":"Adress",
-    "submit":"Complete the Dealership Application"
+    "title":"Your Title",
+    "vehicles":"Number of Vehicles",
+    "company":"Company Name",
+    "descriptions":"Descriptions",
+    "submit":"Submit"
   }
 }
