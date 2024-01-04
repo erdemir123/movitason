@@ -124,5 +124,9 @@
     "company":"Kurum Adı",
     "descriptions":"Açıklamalar",
     "submit":"Başvuruyu Tamamla"
+  },
+  "product": {
+    "title":"Ürünlerimiz",
+    "content":"Movita, mobil araçlar için yerli mühendisler tarafından geliştirilen araç takip ve uzaktan izlemeli kamera kayıt özelliği bulunan bir sistemdir. Yeni nesil takip sistemi olarak bilinen mobil nvr cihazı sayesinde okul taşıtlarında koltuk sensörü cihazımız ile entegreli çalışmaktadır. Ayrıca bir çok yeni  çözümler sunmaktadır."
   }
 }

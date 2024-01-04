@@ -8,7 +8,12 @@ import { product } from "@/utils/product";
 import { motion } from "framer-motion";
 import { fadeIn } from "@/variants";
 import SwiperPartner from "./SwiperPartner";
+import { useTranslations } from "next-intl";
+
+
 export default function Product({locale}) {
+
+  const t = useTranslations("product");
   
   return (
     <>
@@ -22,7 +27,7 @@ export default function Product({locale}) {
               animate="show"
               exit="hidden"
             >
-              <span>Ürünlerimiz</span>
+              <span>{t(`title`)}</span>
             </motion.div>
             <Image
               src={"/yapay.png"}
@@ -33,12 +38,7 @@ export default function Product({locale}) {
               priority={true}
             />
             <MotionP>
-              Movita, mobil araçlar için yerli mühendisler tarafından
-              geliştirilen araç takip ve uzaktan izlemeli kamera kayıt özelliği
-              bulunan bir sistemdir. Yeni nesil takip sistemi olarak bilinen
-              mobil nvr cihazı sayesinde okul taşıtlarında koltuk sensörü
-              cihazımız ile entegreli çalışmaktadır. Ayrıca bir çok yeni
-              çözümler sunmaktadır.
+            {t(`content`)}
             </MotionP>
           </div>
           <div className="w-full xl:max-w-[65%]">

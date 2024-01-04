@@ -127,5 +127,10 @@
     "company":"Company Name",
     "descriptions":"Descriptions",
     "submit":"Submit"
+  },
+  "product": {
+    "title":"Products",
+    "content":"Movita is a system with vehicle tracking and remote camera recording features developed by local engineers for mobile vehicles. Thanks to the mobile NVR device, known as the new generation tracking system, the seat sensor in school vehicles works integrated with our device. It also offers many new solutions."
   }
+
 }
