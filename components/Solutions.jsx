@@ -23,13 +23,10 @@ export default function Solutions({ locale }) {
               variants={fadeIn("down", 0.3)}
               initial="hidden"
               animate="show"
-              exit="hidden"
-              
-            >
+              exit="hidden"            >
               <div
                 className="bg-accent font-bold py-2 rounded-lg flex justify-center relative w-36 md:w-48 border group cursor-pointer"
-               onClick={()=>setIsOpen(!isOpen)}
-              >
+                onClick={() => setIsOpen(!isOpen)}              >
                 Çözümlerimiz
               </div>
             </div>
