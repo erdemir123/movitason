@@ -23,21 +23,22 @@ export default function Solutions({ locale }) {
               variants={fadeIn("down", 0.3)}
               initial="hidden"
               animate="show"
-              exit="hidden"            >
+              exit="hidden"
+            >
               <div
                 className="bg-accent font-bold py-2 rounded-lg flex justify-center relative w-36 md:w-48 border group cursor-pointer"
-                onClick={() => setIsOpen(!isOpen)}              >
+                onClick={() => setIsOpen(!isOpen)}
+              >
                 Çözümlerimiz
               </div>
             </div>
             <p>
-              Sint veniam tempor sint eu commodo ullamco reprehenderit amet.
-              Reprehenderit laborum esse mollit exercitation sit ea commodo eu
-              nulla. Aute consectetur dolor tempor exercitation dolor
-              reprehenderit veniam. Duis qui ut fugiat culpa pariatur ea velit
-              in. Aliqua laboris adipisicing cillum nisi aute est aliquip
-              laboris id laboris officia velit esse. Eu aliqua enim
-              reprehenderit amet incididunt.
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Quisquam
+              sunt qui veniam cupiditate! Explicabo eius esse dolores deleniti
+              quam, reprehenderit delectus officiis expedita, dolor natus
+              deserunt. Omnis, sint. Aliquam quam odio fuga labore magni at, ea
+              laudantium unde hic, rem fugit. Corrupti est officiis alias magni
+              rerum distinctio vitae eos!
             </p>
           </div>
           <div className="flex md:hidden  xl:w-[30vw] flex-col lg:text-left mb-4 xl:mb-0 pt-4 relative  pr-2">
