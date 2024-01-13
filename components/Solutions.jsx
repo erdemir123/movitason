@@ -30,6 +30,7 @@ export default function Solutions({ locale }) {
                 onClick={() => setIsOpen(!isOpen)}
               >
                 Çözümlerimiz
+                
               </div>
             </div>
             <p>
