@@ -12,7 +12,6 @@ import ModalSlider from "./ModalSlider";
 
 export default function Solutions({ locale }) {
   const [isOpen, setIsOpen] = useState(false);
-  console.log(isOpen);
   return (
     <>
       <div className="bg-primary/30 xl:py-32 py-4 rounded-md px-4">
