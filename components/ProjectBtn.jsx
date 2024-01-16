@@ -17,7 +17,9 @@ export default function ProjectBtn({title,handleClick,isOpen}) {
       onClick={handleClick}
       className="bg-accent font-bold text-[16px] py-2 rounded-lg flex justify-center relative w-32 md:w-48 border group cursor-pointer"
     >
+
       {title}
+      
     </button>
   </motion.div>
   )
