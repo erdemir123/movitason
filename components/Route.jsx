@@ -26,6 +26,7 @@ export default function Route() {
         <div className="w-full mt-4">
           <h2 className="my-2 text-center text-accent  font-bold text-lg">
             Rota Optimizasyonu
+            
           </h2>
           <div className="xl:flex-row flex-col flex gap-6 items-center justify-center text-md">
             <Image
