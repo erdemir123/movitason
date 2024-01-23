@@ -60,6 +60,7 @@ export default function Route() {
         <div className="w-full mb-6">
           <h2 className="my-8 text-center text-accent  font-bold text-lg ">
             Sağladığı Yararlar
+            
           </h2>
           <div className="xl:flex-row flex-col flex gap-6 items-center justify-center text-md">
             <div className="font-bold flex flex-col  gap-2">
