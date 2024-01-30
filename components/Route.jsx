@@ -59,6 +59,7 @@ export default function Route() {
         </div>
         <div className="w-full mb-6">
           <h2 className="my-8 text-center text-accent  font-bold text-lg ">
+            
             Sağladığı Yararlar
             
           </h2>
