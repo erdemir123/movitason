@@ -83,6 +83,7 @@ export default function Route() {
                 </motion.div>
               ))}
             </div>
+            
             <Image
               src={follow}
               width={400}
