@@ -6,6 +6,7 @@ import { FaBattleNet } from "react-icons/fa";
 export default function SolutionInfo({ header, content, header2, especially, img1, img2 }) {
     const defaultTransition = { duration: 2, ease: "easeInOut" };
   return (
+    
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1 }}
@@ -14,12 +15,14 @@ export default function SolutionInfo({ header, content, header2, especially, img
       style={{ marginBottom: '20px' }}
       className='flex justify-center items-center flex-col'
     >
+       
         <motion.div
         initial={{ x: '-200%', opacity: 0 }}
         animate={{ x: 0, opacity: 1 }}
         exit={{ x: '200%', opacity: 0 }}
         className='flex justify-center item-center'
       >
+        
          <div style={{ width: '100%'}}>
           <Image
             src={img2.props.src.src}
