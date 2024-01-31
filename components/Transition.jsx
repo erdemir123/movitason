@@ -21,6 +21,7 @@ export default function Transition({ children }) {
     },
   };
   return (
+    
     <AnimatePresence key={pathname} mode="wait">
       <div className="h-full">
         <motion.div
